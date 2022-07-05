@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		223EAD1C27721AD5003D89DF /* LearnCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223EAD1B27721AD5003D89DF /* LearnCVCell.swift */; };
+		225C251C2772DDFC00DFBF5E /* TrainingCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C251B2772DDFC00DFBF5E /* TrainingCVC.swift */; };
+		225C251E2772FBCB00DFBF5E /* LearnStepTwoCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C251D2772FBCB00DFBF5E /* LearnStepTwoCVC.swift */; };
+		225C25202772FF0C00DFBF5E /* LearnStepTwoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C251F2772FF0C00DFBF5E /* LearnStepTwoCell.swift */; };
+		225C25252774B79E00DFBF5E /* AmIsAre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C25242774B79E00DFBF5E /* AmIsAre.swift */; };
+		22648F08277AE6AA00E5D236 /* LessonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648F07277AE6AA00E5D236 /* LessonVC.swift */; };
+		22648F0A277AFB9400E5D236 /* LessonCellForImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648F09277AFB9400E5D236 /* LessonCellForImage.swift */; };
+		22648F0C277B0A3E00E5D236 /* LessonsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648F0B277B0A3E00E5D236 /* LessonsListModel.swift */; };
+		22648F0E277DC72700E5D236 /* LessonCellForText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648F0D277DC72700E5D236 /* LessonCellForText.swift */; };
+		22648F10277DE42E00E5D236 /* LessonCellForTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648F0F277DE42E00E5D236 /* LessonCellForTitle.swift */; };
+		22648F12277DF78200E5D236 /* CellForNextStepButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648F11277DF78200E5D236 /* CellForNextStepButton.swift */; };
+		22648F1B277EF13400E5D236 /* QuestionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648F1A277EF13400E5D236 /* QuestionsVC.swift */; };
+		22648F1D277EF2D200E5D236 /* CellLabelTFLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648F1C277EF2D200E5D236 /* CellLabelTFLabel.swift */; };
+		22648F1F277F142B00E5D236 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648F1E277F142B00E5D236 /* CommonExtensions.swift */; };
+		22A6365827775BF5008C5661 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6365727775BF5008C5661 /* TestVC.swift */; };
+		22A6365A27776124008C5661 /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6365927776124008C5661 /* TestCell.swift */; };
+		22A6365C27776E19008C5661 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6365B27776E19008C5661 /* String.swift */; };
+		22F6DD6C27707404005F94A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6DD6B27707404005F94A6 /* AppDelegate.swift */; };
+		22F6DD6E27707404005F94A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6DD6D27707404005F94A6 /* SceneDelegate.swift */; };
+		22F6DD7327707404005F94A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F6DD7127707404005F94A6 /* Main.storyboard */; };
+		22F6DD7627707404005F94A6 /* Easy_12_English_Teneses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22F6DD7427707404005F94A6 /* Easy_12_English_Teneses.xcdatamodeld */; };
+		22F6DD7827707406005F94A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F6DD7727707406005F94A6 /* Assets.xcassets */; };
+		22F6DD7B27707406005F94A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F6DD7927707406005F94A6 /* LaunchScreen.storyboard */; };
+		22F6DD8627707407005F94A6 /* Easy_12_English_TenesesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6DD8527707407005F94A6 /* Easy_12_English_TenesesTests.swift */; };
+		22F6DD9027707407005F94A6 /* Easy_12_English_TenesesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6DD8F27707407005F94A6 /* Easy_12_English_TenesesUITests.swift */; };
+		22F6DD9227707407005F94A6 /* Easy_12_English_TenesesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6DD9127707407005F94A6 /* Easy_12_English_TenesesUITestsLaunchTests.swift */; };
+		22F6DD9F27708F3C005F94A6 /* Learn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F6DD9E27708F3C005F94A6 /* Learn.storyboard */; };
+		22F6DDA127708FE5005F94A6 /* Training.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F6DDA027708FE5005F94A6 /* Training.storyboard */; };
+		22F6DDA327708FF7005F94A6 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F6DDA227708FF7005F94A6 /* Settings.storyboard */; };
+		22F6DDA527709353005F94A6 /* Teneses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6DDA427709353005F94A6 /* Teneses.swift */; };
+		22F6DDA92771EA2F005F94A6 /* LearnCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6DDA82771EA2F005F94A6 /* LearnCVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22F6DD8227707407005F94A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22F6DD6027707404005F94A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F6DD6727707404005F94A6;
+			remoteInfo = "Easy 12 English Teneses";
+		};
+		22F6DD8C27707407005F94A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22F6DD6027707404005F94A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F6DD6727707404005F94A6;
+			remoteInfo = "Easy 12 English Teneses";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		223EAD1B27721AD5003D89DF /* LearnCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCVCell.swift; sourceTree = "<group>"; };
+		225C251B2772DDFC00DFBF5E /* TrainingCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCVC.swift; sourceTree = "<group>"; };
+		225C251D2772FBCB00DFBF5E /* LearnStepTwoCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnStepTwoCVC.swift; sourceTree = "<group>"; };
+		225C251F2772FF0C00DFBF5E /* LearnStepTwoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnStepTwoCell.swift; sourceTree = "<group>"; };
+		225C25242774B79E00DFBF5E /* AmIsAre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmIsAre.swift; sourceTree = "<group>"; };
+		22648F07277AE6AA00E5D236 /* LessonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonVC.swift; sourceTree = "<group>"; };
+		22648F09277AFB9400E5D236 /* LessonCellForImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCellForImage.swift; sourceTree = "<group>"; };
+		22648F0B277B0A3E00E5D236 /* LessonsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsListModel.swift; sourceTree = "<group>"; };
+		22648F0D277DC72700E5D236 /* LessonCellForText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCellForText.swift; sourceTree = "<group>"; };
+		22648F0F277DE42E00E5D236 /* LessonCellForTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCellForTitle.swift; sourceTree = "<group>"; };
+		22648F11277DF78200E5D236 /* CellForNextStepButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForNextStepButton.swift; sourceTree = "<group>"; };
+		22648F1A277EF13400E5D236 /* QuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsVC.swift; sourceTree = "<group>"; };
+		22648F1C277EF2D200E5D236 /* CellLabelTFLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellLabelTFLabel.swift; sourceTree = "<group>"; };
+		22648F1E277F142B00E5D236 /* CommonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
+		22A6365727775BF5008C5661 /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		22A6365927776124008C5661 /* TestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
+		22A6365B27776E19008C5661 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		22F6DD6827707404005F94A6 /* Easy 12 English Teneses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy 12 English Teneses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F6DD6B27707404005F94A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22F6DD6D27707404005F94A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22F6DD7227707404005F94A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22F6DD7527707404005F94A6 /* Easy_12_English_Teneses.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Easy_12_English_Teneses.xcdatamodel; sourceTree = "<group>"; };
+		22F6DD7727707406005F94A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22F6DD7A27707406005F94A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22F6DD7C27707406005F94A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F6DD8127707407005F94A6 /* Easy 12 English TenesesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy 12 English TenesesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F6DD8527707407005F94A6 /* Easy_12_English_TenesesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_12_English_TenesesTests.swift; sourceTree = "<group>"; };
+		22F6DD8B27707407005F94A6 /* Easy 12 English TenesesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy 12 English TenesesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F6DD8F27707407005F94A6 /* Easy_12_English_TenesesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_12_English_TenesesUITests.swift; sourceTree = "<group>"; };
+		22F6DD9127707407005F94A6 /* Easy_12_English_TenesesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_12_English_TenesesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22F6DD9E27708F3C005F94A6 /* Learn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Learn.storyboard; sourceTree = "<group>"; };
+		22F6DDA027708FE5005F94A6 /* Training.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training.storyboard; sourceTree = "<group>"; };
+		22F6DDA227708FF7005F94A6 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		22F6DDA427709353005F94A6 /* Teneses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teneses.swift; sourceTree = "<group>"; };
+		22F6DDA82771EA2F005F94A6 /* LearnCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F6DD6527707404005F94A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F6DD7E27707407005F94A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F6DD8827707407005F94A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		225C25182772DD5400DFBF5E /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				22F6DD9E27708F3C005F94A6 /* Learn.storyboard */,
+				225C25212774B72E00DFBF5E /* 1 AmIsAre */,
+				22F6DDA82771EA2F005F94A6 /* LearnCVC.swift */,
+				22648F15277EDC8400E5D236 /* LessonContent */,
+				225C251D2772FBCB00DFBF5E /* LearnStepTwoCVC.swift */,
+				225C251F2772FF0C00DFBF5E /* LearnStepTwoCell.swift */,
+				223EAD1B27721AD5003D89DF /* LearnCVCell.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		225C25192772DD7500DFBF5E /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				22F6DDA027708FE5005F94A6 /* Training.storyboard */,
+				225C251B2772DDFC00DFBF5E /* TrainingCVC.swift */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		225C251A2772DD7D00DFBF5E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		225C25212774B72E00DFBF5E /* 1 AmIsAre */ = {
+			isa = PBXGroup;
+			children = (
+				22648F17277EE20100E5D236 /* ExercisesContent */,
+				225C25242774B79E00DFBF5E /* AmIsAre.swift */,
+				22A6365927776124008C5661 /* TestCell.swift */,
+				22A6365727775BF5008C5661 /* TestVC.swift */,
+			);
+			path = "1 AmIsAre";
+			sourceTree = "<group>";
+		};
+		22648F15277EDC8400E5D236 /* LessonContent */ = {
+			isa = PBXGroup;
+			children = (
+				22648F07277AE6AA00E5D236 /* LessonVC.swift */,
+				22648F0B277B0A3E00E5D236 /* LessonsListModel.swift */,
+				22648F09277AFB9400E5D236 /* LessonCellForImage.swift */,
+				22648F11277DF78200E5D236 /* CellForNextStepButton.swift */,
+				22648F0D277DC72700E5D236 /* LessonCellForText.swift */,
+				22648F0F277DE42E00E5D236 /* LessonCellForTitle.swift */,
+			);
+			path = LessonContent;
+			sourceTree = "<group>";
+		};
+		22648F17277EE20100E5D236 /* ExercisesContent */ = {
+			isa = PBXGroup;
+			children = (
+				22648F1A277EF13400E5D236 /* QuestionsVC.swift */,
+				22648F1C277EF2D200E5D236 /* CellLabelTFLabel.swift */,
+			);
+			path = ExercisesContent;
+			sourceTree = "<group>";
+		};
+		22A6365D27776E35008C5661 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				22A6365B27776E19008C5661 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		22F6DD5F27707404005F94A6 = {
+			isa = PBXGroup;
+			children = (
+				22F6DD6A27707404005F94A6 /* Easy 12 English Teneses */,
+				22F6DD8427707407005F94A6 /* Easy 12 English TenesesTests */,
+				22F6DD8E27707407005F94A6 /* Easy 12 English TenesesUITests */,
+				22F6DD6927707404005F94A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22F6DD6927707404005F94A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F6DD6827707404005F94A6 /* Easy 12 English Teneses.app */,
+				22F6DD8127707407005F94A6 /* Easy 12 English TenesesTests.xctest */,
+				22F6DD8B27707407005F94A6 /* Easy 12 English TenesesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F6DD6A27707404005F94A6 /* Easy 12 English Teneses */ = {
+			isa = PBXGroup;
+			children = (
+				22A6365D27776E35008C5661 /* Extensions */,
+				22F6DD6B27707404005F94A6 /* AppDelegate.swift */,
+				22F6DD6D27707404005F94A6 /* SceneDelegate.swift */,
+				22F6DDA427709353005F94A6 /* Teneses.swift */,
+				22648F1E277F142B00E5D236 /* CommonExtensions.swift */,
+				225C25192772DD7500DFBF5E /* Training */,
+				225C251A2772DD7D00DFBF5E /* Settings */,
+				225C25182772DD5400DFBF5E /* Learn */,
+				22F6DDA227708FF7005F94A6 /* Settings.storyboard */,
+				22F6DD7127707404005F94A6 /* Main.storyboard */,
+				22F6DD7727707406005F94A6 /* Assets.xcassets */,
+				22F6DD7927707406005F94A6 /* LaunchScreen.storyboard */,
+				22F6DD7C27707406005F94A6 /* Info.plist */,
+				22F6DD7427707404005F94A6 /* Easy_12_English_Teneses.xcdatamodeld */,
+			);
+			path = "Easy 12 English Teneses";
+			sourceTree = "<group>";
+		};
+		22F6DD8427707407005F94A6 /* Easy 12 English TenesesTests */ = {
+			isa = PBXGroup;
+			children = (
+				22F6DD8527707407005F94A6 /* Easy_12_English_TenesesTests.swift */,
+			);
+			path = "Easy 12 English TenesesTests";
+			sourceTree = "<group>";
+		};
+		22F6DD8E27707407005F94A6 /* Easy 12 English TenesesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22F6DD8F27707407005F94A6 /* Easy_12_English_TenesesUITests.swift */,
+				22F6DD9127707407005F94A6 /* Easy_12_English_TenesesUITestsLaunchTests.swift */,
+			);
+			path = "Easy 12 English TenesesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F6DD6727707404005F94A6 /* Easy 12 English Teneses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F6DD9527707407005F94A6 /* Build configuration list for PBXNativeTarget "Easy 12 English Teneses" */;
+			buildPhases = (
+				22F6DD6427707404005F94A6 /* Sources */,
+				22F6DD6527707404005F94A6 /* Frameworks */,
+				22F6DD6627707404005F94A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy 12 English Teneses";
+			productName = "Easy 12 English Teneses";
+			productReference = 22F6DD6827707404005F94A6 /* Easy 12 English Teneses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22F6DD8027707407005F94A6 /* Easy 12 English TenesesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F6DD9827707407005F94A6 /* Build configuration list for PBXNativeTarget "Easy 12 English TenesesTests" */;
+			buildPhases = (
+				22F6DD7D27707407005F94A6 /* Sources */,
+				22F6DD7E27707407005F94A6 /* Frameworks */,
+				22F6DD7F27707407005F94A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22F6DD8327707407005F94A6 /* PBXTargetDependency */,
+			);
+			name = "Easy 12 English TenesesTests";
+			productName = "Easy 12 English TenesesTests";
+			productReference = 22F6DD8127707407005F94A6 /* Easy 12 English TenesesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22F6DD8A27707407005F94A6 /* Easy 12 English TenesesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F6DD9B27707407005F94A6 /* Build configuration list for PBXNativeTarget "Easy 12 English TenesesUITests" */;
+			buildPhases = (
+				22F6DD8727707407005F94A6 /* Sources */,
+				22F6DD8827707407005F94A6 /* Frameworks */,
+				22F6DD8927707407005F94A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22F6DD8D27707407005F94A6 /* PBXTargetDependency */,
+			);
+			name = "Easy 12 English TenesesUITests";
+			productName = "Easy 12 English TenesesUITests";
+			productReference = 22F6DD8B27707407005F94A6 /* Easy 12 English TenesesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22F6DD6027707404005F94A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					22F6DD6727707404005F94A6 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					22F6DD8027707407005F94A6 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 22F6DD6727707404005F94A6;
+					};
+					22F6DD8A27707407005F94A6 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 22F6DD6727707404005F94A6;
+					};
+				};
+			};
+			buildConfigurationList = 22F6DD6327707404005F94A6 /* Build configuration list for PBXProject "Easy 12 English Teneses" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22F6DD5F27707404005F94A6;
+			productRefGroup = 22F6DD6927707404005F94A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F6DD6727707404005F94A6 /* Easy 12 English Teneses */,
+				22F6DD8027707407005F94A6 /* Easy 12 English TenesesTests */,
+				22F6DD8A27707407005F94A6 /* Easy 12 English TenesesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F6DD6627707404005F94A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F6DDA127708FE5005F94A6 /* Training.storyboard in Resources */,
+				22F6DD7B27707406005F94A6 /* LaunchScreen.storyboard in Resources */,
+				22F6DD9F27708F3C005F94A6 /* Learn.storyboard in Resources */,
+				22F6DDA327708FF7005F94A6 /* Settings.storyboard in Resources */,
+				22F6DD7827707406005F94A6 /* Assets.xcassets in Resources */,
+				22F6DD7327707404005F94A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F6DD7F27707407005F94A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F6DD8927707407005F94A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F6DD6427707404005F94A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22648F0E277DC72700E5D236 /* LessonCellForText.swift in Sources */,
+				22648F0C277B0A3E00E5D236 /* LessonsListModel.swift in Sources */,
+				22F6DD6C27707404005F94A6 /* AppDelegate.swift in Sources */,
+				22F6DDA92771EA2F005F94A6 /* LearnCVC.swift in Sources */,
+				22A6365A27776124008C5661 /* TestCell.swift in Sources */,
+				22648F10277DE42E00E5D236 /* LessonCellForTitle.swift in Sources */,
+				22648F08277AE6AA00E5D236 /* LessonVC.swift in Sources */,
+				22A6365C27776E19008C5661 /* String.swift in Sources */,
+				22648F1D277EF2D200E5D236 /* CellLabelTFLabel.swift in Sources */,
+				22F6DD6E27707404005F94A6 /* SceneDelegate.swift in Sources */,
+				22A6365827775BF5008C5661 /* TestVC.swift in Sources */,
+				225C251C2772DDFC00DFBF5E /* TrainingCVC.swift in Sources */,
+				22648F1F277F142B00E5D236 /* CommonExtensions.swift in Sources */,
+				22648F12277DF78200E5D236 /* CellForNextStepButton.swift in Sources */,
+				225C251E2772FBCB00DFBF5E /* LearnStepTwoCVC.swift in Sources */,
+				22648F0A277AFB9400E5D236 /* LessonCellForImage.swift in Sources */,
+				225C25202772FF0C00DFBF5E /* LearnStepTwoCell.swift in Sources */,
+				225C25252774B79E00DFBF5E /* AmIsAre.swift in Sources */,
+				22648F1B277EF13400E5D236 /* QuestionsVC.swift in Sources */,
+				223EAD1C27721AD5003D89DF /* LearnCVCell.swift in Sources */,
+				22F6DD7627707404005F94A6 /* Easy_12_English_Teneses.xcdatamodeld in Sources */,
+				22F6DDA527709353005F94A6 /* Teneses.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F6DD7D27707407005F94A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F6DD8627707407005F94A6 /* Easy_12_English_TenesesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F6DD8727707407005F94A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F6DD9227707407005F94A6 /* Easy_12_English_TenesesUITestsLaunchTests.swift in Sources */,
+				22F6DD9027707407005F94A6 /* Easy_12_English_TenesesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22F6DD8327707407005F94A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F6DD6727707404005F94A6 /* Easy 12 English Teneses */;
+			targetProxy = 22F6DD8227707407005F94A6 /* PBXContainerItemProxy */;
+		};
+		22F6DD8D27707407005F94A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F6DD6727707404005F94A6 /* Easy 12 English Teneses */;
+			targetProxy = 22F6DD8C27707407005F94A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22F6DD7127707404005F94A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F6DD7227707404005F94A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22F6DD7927707406005F94A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F6DD7A27707406005F94A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22F6DD9327707407005F94A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22F6DD9427707407005F94A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22F6DD9627707407005F94A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4RSAT9MJX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Easy 12 English Teneses/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xlv.Easy-12-English-Teneses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22F6DD9727707407005F94A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4RSAT9MJX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Easy 12 English Teneses/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xlv.Easy-12-English-Teneses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22F6DD9927707407005F94A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4RSAT9MJX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xlv.Easy-12-English-TenesesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy 12 English Teneses.app/Easy 12 English Teneses";
+			};
+			name = Debug;
+		};
+		22F6DD9A27707407005F94A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4RSAT9MJX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xlv.Easy-12-English-TenesesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy 12 English Teneses.app/Easy 12 English Teneses";
+			};
+			name = Release;
+		};
+		22F6DD9C27707407005F94A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4RSAT9MJX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xlv.Easy-12-English-TenesesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Easy 12 English Teneses";
+			};
+			name = Debug;
+		};
+		22F6DD9D27707407005F94A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4RSAT9MJX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xlv.Easy-12-English-TenesesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Easy 12 English Teneses";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22F6DD6327707404005F94A6 /* Build configuration list for PBXProject "Easy 12 English Teneses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F6DD9327707407005F94A6 /* Debug */,
+				22F6DD9427707407005F94A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F6DD9527707407005F94A6 /* Build configuration list for PBXNativeTarget "Easy 12 English Teneses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F6DD9627707407005F94A6 /* Debug */,
+				22F6DD9727707407005F94A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F6DD9827707407005F94A6 /* Build configuration list for PBXNativeTarget "Easy 12 English TenesesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F6DD9927707407005F94A6 /* Debug */,
+				22F6DD9A27707407005F94A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F6DD9B27707407005F94A6 /* Build configuration list for PBXNativeTarget "Easy 12 English TenesesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F6DD9C27707407005F94A6 /* Debug */,
+				22F6DD9D27707407005F94A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22F6DD7427707404005F94A6 /* Easy_12_English_Teneses.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22F6DD7527707404005F94A6 /* Easy_12_English_Teneses.xcdatamodel */,
+			);
+			currentVersion = 22F6DD7527707404005F94A6 /* Easy_12_English_Teneses.xcdatamodel */;
+			path = Easy_12_English_Teneses.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22F6DD6027707404005F94A6 /* Project object */;
+}
